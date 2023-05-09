@@ -2,6 +2,12 @@
 	height: 400px;
 }
 
+.home-header-navbar {
+	position: absolute;
+	right: 2%;
+	top: 2%;
+}
+
 .home-header-image-container {
 	position: absolute;
 	height: 400px;
@@ -27,4 +33,18 @@
 
 .home-header-title {
 	font-size: 60px;
+}
+
+.home-header-button {
+	padding-top: 20px;
+}
+
+.home-header-button button {
+	font-size: 20px;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 10px 20px;
+	color: white;
+	cursor: pointer;
 }

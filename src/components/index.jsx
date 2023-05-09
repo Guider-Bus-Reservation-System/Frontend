@@ -1,5 +1,7 @@
 import React from "react";
 
+import Navbar from "./common/navbar";
+
 import "./styles/index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBus } from "@fortawesome/free-solid-svg-icons";
@@ -9,6 +11,10 @@ const Index = () => {
 		<React.Fragment>
 			<div className="home">
 				<div className="home-header">
+					<div className="home-header-navbar">
+						<Navbar />
+					</div>
+
 					<div className="home-header-image-container">
 						<img
 							src="homepage.png"
@@ -26,6 +32,9 @@ const Index = () => {
 						</div>
 						<div className="home-header-subtitle">
 							Online Advance Bus Seat Reservation
+						</div>
+						<div className="home-header-button">
+							<button>Book your seat</button>
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,14 @@
+.navbar {
+	background: transparent;
+	color: white;
+}
+
+.navbar-links {
+	display: flex;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.navbar-links-item + .navbar-links-item {
+	margin-left: 40px;
+}
