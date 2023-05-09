@@ -1,0 +1,30 @@
+.home-header {
+	height: 400px;
+}
+
+.home-header-image-container {
+	position: absolute;
+	height: 400px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.home-header-image {
+	width: 100%;
+}
+
+.home-header-container {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	color: white;
+	text-shadow: 2px 2px 5px #333;
+}
+
+.home-header-logo {
+	font-size: 40px;
+}
+
+.home-header-title {
+	font-size: 60px;
+}
