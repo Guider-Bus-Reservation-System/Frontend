@@ -32,7 +32,8 @@ const Index = () => {
 							Welcome to Guider
 						</div>
 						<div className="home-header-subtitle">
-							Online Advance Bus Seat Reservation
+							Guider: Expressway Bus Transport Management &
+							Information System
 						</div>
 						<div className="home-header-button">
 							<button>Book your seat</button>
