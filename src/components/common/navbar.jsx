@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./styles/navbar.css";
 
@@ -7,8 +8,12 @@ const Navbar = () => {
 		<React.Fragment>
 			<div className="navbar">
 				<div className="navbar-links">
-					<div className="navbar-links-item">Home</div>
-					<div className="navbar-links-item">Timetable</div>
+					<div className="navbar-links-item">
+						<Link to="/">Home</Link>
+					</div>
+					<div className="navbar-links-item">
+						<Link to="/timetable">Timetable</Link>
+					</div>
 					<div className="navbar-links-item">Reservations</div>
 					<div className="navbar-links-item">News</div>
 					<div className="navbar-links-item">Contact Us</div>

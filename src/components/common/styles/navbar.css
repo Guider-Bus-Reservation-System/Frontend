@@ -12,3 +12,8 @@
 .navbar-links-item + .navbar-links-item {
 	margin-left: 40px;
 }
+
+.navbar-links-item a {
+	color: white;
+	text-decoration: none;
+}
