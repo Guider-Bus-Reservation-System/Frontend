@@ -1,10 +1,11 @@
 import React from "react";
-
-import Navbar from "./common/navbar";
-
-import "./styles/index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBus } from "@fortawesome/free-solid-svg-icons";
+
+import Navbar from "../components/common/navbar";
+import Search from "../components/index/search";
+
+import "./styles/index.css";
 
 const Index = () => {
 	return (
@@ -39,9 +40,13 @@ const Index = () => {
 					</div>
 				</div>
 
-				<div className="home-body">
-					<h1>Body</h1>
+				<div className="home-search-container">
+					<div className="home-body-search">
+						<Search />
+					</div>
 				</div>
+
+				<div className="home-body"></div>
 			</div>
 		</React.Fragment>
 	);
