@@ -19,22 +19,30 @@ const Search = () => {
 
 	return (
 		<React.Fragment>
-			<div className="reservation">
-				<div className="reservation-container">
-					<div className="reservation-left">
-						<div className="reservation-left-title">
+			<div className="search-timetable">
+				<div className="search-timetable-container">
+					<div className="search-timetable-left">
+						<div className="search-timetable-left-title">
 							Enter Your Destination
 						</div>
 					</div>
 
-					<div className="reservation-right">
-						<div className="reservation-right-container">
-							<div className="reservation-right-form-container">
-								<form>
-									<div className="form-row">
-										<div className="form-group">
-											<label htmlFor="from">From:</label>
-											<select id="from">
+					<div className="search-timetable-right">
+						<div className="search-timetable-right-container">
+							<div className="search-timetable-right-form-container">
+								<form className="search-timetable-form">
+									<div className="search-timetable-form-row">
+										<div className="search-timetable-form-group">
+											<label
+												className="search-timetable-label"
+												htmlFor="from"
+											>
+												From:
+											</label>
+											<select
+												id="from"
+												className="search-timetable-select"
+											>
 												{locations.map((location) => (
 													<option
 														key={location.id}
@@ -45,9 +53,17 @@ const Search = () => {
 												))}
 											</select>
 										</div>
-										<div className="form-group">
-											<label htmlFor="to">To:</label>
-											<select id="to">
+										<div className="search-timetable-form-group">
+											<label
+												className="search-timetable-label"
+												htmlFor="to"
+											>
+												To:
+											</label>
+											<select
+												id="to"
+												className="search-timetable-select"
+											>
 												{locations.map((location) => (
 													<option
 														key={location.id}
@@ -59,10 +75,16 @@ const Search = () => {
 											</select>
 										</div>
 									</div>
-									<div className="form-row">
-										<div className="form-group">
-											<label htmlFor="date">Date:</label>
+									<div className="search-timetable-form-row">
+										<div className="search-timetable-form-group">
+											<label
+												className="search-timetable-label"
+												htmlFor="date"
+											>
+												Date:
+											</label>
 											<input
+												className="search-timetable-date"
 												type="datetime-local"
 												id="date"
 												value={dateTime}
@@ -72,19 +94,25 @@ const Search = () => {
 											/>
 										</div>
 									</div>
-									<div className="form-row">
-										<div className="form-group">
-											<label htmlFor="passengers">
+									<div className="search-timetable-form-row">
+										<div className="search-timetable-form-group">
+											<label
+												className="search-timetable-label"
+												htmlFor="passengers"
+											>
 												Passengers:
 											</label>
 											<input
+												className="search-timetable-passengers"
 												type="number"
 												id="passengers"
 												min="1"
 												max="10"
 											/>
 										</div>
-										<button type="submit">Search</button>
+										<button className="search-timetable-button">
+											Search
+										</button>
 									</div>
 								</form>
 							</div>

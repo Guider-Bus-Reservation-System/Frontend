@@ -1,9 +1,9 @@
-.reservation-container {
+.search-timetable-container {
 	display: flex;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.reservation-left {
+.search-timetable-left {
 	display: flex;
 	align-items: center;
 	width: 30%;
@@ -11,31 +11,31 @@
 	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
 }
 
-.reservation-right {
+.search-timetable-right {
 	display: flex;
 	width: 70%;
 	height: 300px;
 	background-color: white;
 }
 
-.reservation-left-title {
+.search-timetable-left-title {
 	font-size: 35px;
 	color: white;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
-.reservation-right-container {
+.search-timetable-right-container {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 }
 
-.reservation-right-form-container {
+.search-timetable-right-form-container {
 	padding-top: 20px;
 }
 
-form {
+.search-timetable-form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -43,29 +43,29 @@ form {
 	width: 100%;
 }
 
-.form-row {
+.search-timetable-form-row {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	max-width: 800px;
-	margin-bottom: 1rem; /* add some margin between rows */
+	margin-bottom: 1rem;
 }
 
-.form-group {
+.search-timetable-form-group {
 	margin: 0 0.5rem;
 	flex: 1;
 }
 
-label {
+.search-timetable-label {
 	display: block;
 	margin-bottom: 0.5rem;
 	font-weight: bold;
 }
 
-select,
-input[type="datetime-local"],
-input[type="number"] {
+.search-timetable-select,
+.search-timetable-date,
+.search-timetable-passengers {
 	width: 100%;
 	height: 2.1rem;
 	padding: 0.5rem;
@@ -76,14 +76,14 @@ input[type="number"] {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-select:focus,
-input[type="datetime-local"]:focus,
-input[type="number"]:focus {
+.search-timetable-select:focus,
+.search-timetable-date:focus,
+.search-timetable-passengers:focus {
 	outline: none;
 	box-shadow: 0 0 0 2px #006ebe;
 }
 
-button[type="submit"] {
+.search-timetable-button {
 	padding: 0.75rem 1.5rem;
 	font-size: 1.25rem;
 	border: none;
@@ -96,10 +96,10 @@ button[type="submit"] {
 	margin-top: 30px;
 }
 
-button[type="submit"]:hover {
+.search-timetable-button:hover {
 	background-color: #02a1ed;
 }
 
-input[id="passengers"] {
+.search-timetable-input[id="passengers"] {
 	width: 95%;
 }
