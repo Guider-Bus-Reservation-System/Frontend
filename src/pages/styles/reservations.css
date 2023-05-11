@@ -77,3 +77,41 @@
 .reservations-btn:hover {
 	background-color: #0069d9;
 }
+
+.reservations-table-container {
+	padding-top: 30px;
+}
+
+.reservations-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.reservations-table_header {
+	background-color: #2b243e;
+	font-weight: bold;
+	text-align: left;
+	padding: 8px;
+	border: 1px solid #ddd;
+	color: white;
+}
+
+.reservations-table_data {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+
+.reservations-table_btn {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.reservations-table_btn + .reservations-table_btn {
+	margin-left: 10px;
+}
