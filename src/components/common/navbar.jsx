@@ -20,8 +20,12 @@ const Navbar = () => {
 					<div className="navbar-links-item">
 						<Link to="/news">News</Link>
 					</div>
-					<div className="navbar-links-item">Contact Us</div>
-					<div className="navbar-links-item">About</div>
+					<div className="navbar-links-item">
+						<Link to="/contact">Contact Us</Link>
+					</div>
+					<div className="navbar-links-item">
+						<Link to="/about">About</Link>
+					</div>
 				</div>
 			</div>
 		</React.Fragment>
