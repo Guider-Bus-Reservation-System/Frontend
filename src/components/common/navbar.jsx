@@ -9,7 +9,9 @@ const Navbar = () => {
 			<div className="navbar">
 				<div className="navbar-links">
 					<div className="navbar-links-item">
-						<Link to="/">Home</Link>
+						<Link to="/" className="active">
+							Home
+						</Link>
 					</div>
 					<div className="navbar-links-item">
 						<Link to="/timetable">Timetable</Link>
@@ -23,7 +25,10 @@ const Navbar = () => {
 					<div className="navbar-links-item">
 						<Link to="/contact">Contact Us</Link>
 					</div>
-					<div className="navbar-links-item">
+					<div
+						className="navbar-links-item"
+						style={{ float: "left" }}
+					>
 						<Link to="/about">About</Link>
 					</div>
 				</div>

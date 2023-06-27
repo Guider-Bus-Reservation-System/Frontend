@@ -1,6 +1,8 @@
-.navbar {
-	background: transparent;
+/*.navbar {
+	background: #1c2236;
 	color: white;
+	height: 60px;
+	width: 100%;
 }
 
 .navbar-links {
@@ -16,4 +18,42 @@
 .navbar-links-item a {
 	color: white;
 	text-decoration: none;
+}
+
+.navbar-links-item :hover {
+	color: blue;
+}
+*/
+
+.navbar-links {
+	background: #1c2236;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar-links-item {
+	float: right;
+	border-left: 1px solid #bbb;
+}
+
+.navbar-links-item:last-child {
+	border-left: none;
+}
+
+.navbar-links-item a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar-links-item a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #000080;
 }
