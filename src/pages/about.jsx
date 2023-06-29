@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/common/navbar";
+import Footer from "../components/common/footer";
 
 import "./styles/about.css";
 
@@ -115,6 +116,10 @@ const About = () => {
 						System. We look forward to serving you and making your
 						daily commute a smooth and enjoyable journey.
 					</p>
+				</div>
+
+				<div className="about-footer">
+					<Footer />
 				</div>
 			</div>
 		</React.Fragment>

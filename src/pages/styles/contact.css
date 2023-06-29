@@ -33,3 +33,11 @@
 .contact-card-container {
 	padding-bottom: 20px;
 }
+
+.contact-footer {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: flex-end;
+	margin-top: 100px;
+}

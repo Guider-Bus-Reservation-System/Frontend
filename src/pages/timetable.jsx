@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import Navbar from "../components/common/navbar";
+import Footer from "../components/common/footer";
 import AddBus from "../components/timetable/addBus";
 
 import "./styles/timetable.css";
@@ -106,6 +107,10 @@ const Timetable = () => {
 					onSubmit={handleSubmitNewClosePopup}
 				/>
 			)}
+
+			<div className="timetable-footer">
+				<Footer />
+			</div>
 		</React.Fragment>
 	);
 };

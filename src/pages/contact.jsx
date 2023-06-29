@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/common/navbar";
+import Footer from "../components/common/footer";
 
 import "./styles/contact.css";
 
@@ -34,6 +35,10 @@ const Contact = () => {
 
 				<div className="contact-body">
 					<ContactPage />
+				</div>
+
+				<div className="contact-footer">
+					<Footer />
 				</div>
 			</div>
 		</React.Fragment>

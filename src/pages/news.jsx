@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "../components/common/navbar";
+import Footer from "../components/common/footer";
 
 import "./styles/news.css";
 import Card from "../components/news/card";
@@ -62,6 +63,10 @@ const News = () => {
 							/>
 						</div>
 					))}
+				</div>
+
+				<div className="news-footer">
+					<Footer />
 				</div>
 			</div>
 		</React.Fragment>

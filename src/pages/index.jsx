@@ -4,6 +4,7 @@ import { faBus } from "@fortawesome/free-solid-svg-icons";
 
 import Navbar from "../components/common/navbar";
 import Search from "../components/index/search";
+import Footer from "../components/common/footer";
 
 import "./styles/index.css";
 
@@ -48,6 +49,10 @@ const Index = () => {
 				</div>
 
 				<div className="home-body"></div>
+
+				<div className="home-footer">
+					<Footer />
+				</div>
 			</div>
 		</React.Fragment>
 	);
