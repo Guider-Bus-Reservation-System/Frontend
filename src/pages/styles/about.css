@@ -19,6 +19,7 @@
 .about-header-image-container {
 	position: absolute;
 	height: 250px;
+	width: 100%;
 	overflow: hidden;
 	z-index: -1;
 }

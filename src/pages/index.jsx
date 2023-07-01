@@ -5,6 +5,7 @@ import { faBus } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/common/navbar";
 import Search from "../components/index/search";
 import Footer from "../components/common/footer";
+import Slideshow from "../components/index/slideshow";
 
 import "./styles/index.css";
 
@@ -18,11 +19,12 @@ const Index = () => {
 					</div>
 
 					<div className="home-header-image-container">
-						<img
+						{/*<img
 							src="homepage.png"
 							alt="homepage"
 							className="home-header-image"
-						/>
+						/>*/}
+						<Slideshow className="home-header-image" />
 					</div>
 
 					<div className="home-header-container">

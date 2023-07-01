@@ -54,6 +54,6 @@
 	background-color: #111;
 }
 
-.active {
+.navbar-links-item .active {
 	background-color: #000080;
 }
