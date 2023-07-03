@@ -19,11 +19,6 @@ const Index = () => {
 					</div>
 
 					<div className="home-header-image-container">
-						{/*<img
-							src="homepage.png"
-							alt="homepage"
-							className="home-header-image"
-						/>*/}
 						<Slideshow className="home-header-image" />
 					</div>
 

@@ -91,13 +91,13 @@ ul {
 
 @keyframes changeLetter {
 	0% {
-		content: "About Guider";
+		content: "Guider";
 	}
 	50% {
 		color: white;
 	}
 	100% {
-		content: "About Guider";
+		content: "Guider";
 	}
 }
 

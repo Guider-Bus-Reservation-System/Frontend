@@ -41,6 +41,13 @@
 
 .home-header-title {
 	font-size: 60px;
+	font-weight: 500;
+}
+
+.home-header-subtitle {
+	background-color: #1c2236;
+	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 .home-header-button {
