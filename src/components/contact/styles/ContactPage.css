@@ -59,39 +59,33 @@ button:hover {
 	box-sizing: border-box;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	resize: vertical;
-}
-
-label {
-	padding: 12px 12px 12px 0;
-	display: inline-block;
-}
-
-button[type="submit"] {
-	background-color: #04aa6d;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	float: right;
-}
-
-button[type="submit"]:hover {
-	background-color: #45a049;
-}
-
 .contact-container {
+	width: 100%;
 	border-radius: 5px;
 	background-color: #f2f2f2;
-	padding: 20px;
+	padding: 15px;
+}
+
+.contact-container-left {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 430px;
+	background-color: white;
+	float: left;
+}
+
+.contact-container-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	height: 430px;
+	background-image: linear-gradient(to bottom left, #1c274e, #000080);
+}
+
+.contact-container-left-header {
+	margin: 15px 0 15px 15px;
 }
 
 .col-25 {
@@ -113,12 +107,93 @@ button[type="submit"]:hover {
 	clear: both;
 }
 
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 120px 12px 0;
+	display: inline-block;
+}
+
+.row button[type="submit"] {
+	background-color: #150d6a;
+	color: white;
+	padding: 12px 20px 12px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+.row button[type="submit"]:hover {
+	background-color: #27139c;
+}
+
+/*.contact-container-right {
+	max-width: 400px;
+}
+*/
+
+/* Location, Phone, Email Section */
+.contact-container-right-header {
+	margin: 15px 0 25px 0;
+	color: #fff;
+}
+
+.contact-list {
+	list-style-type: none;
+	margin-left: -30px;
+	padding-right: 20px;
+}
+
+.list-item {
+	line-height: 4;
+	color: #aaa;
+}
+
+.contact-text {
+	font: 300 18px "Lato", sans-serif;
+	letter-spacing: 1.9px;
+	color: #bbb;
+}
+
+.place {
+	margin-left: 62px;
+}
+
+.phone {
+	margin-left: 56px;
+}
+
+.gmail {
+	margin-left: 53px;
+}
+
+.contact-text a {
+	color: #bbb;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-	.col-25,
-	.col-75,
-	button[type="submit"] {
-		width: 100%;
+	.contact-container-left {
+		width: 60%;
 		margin-top: 0;
+	}
+	.contact-container-right {
+		width: 40%;
 	}
 }
