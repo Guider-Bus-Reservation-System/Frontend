@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Navbar from "../components/common/navbar";
 import Footer from "../components/common/footer";
+import Calendar from "../components/reservations/calender";
 
 import "./styles/reservations.css";
 
@@ -121,6 +122,9 @@ const Reservations = () => {
 								Take a ticket
 							</button>
 						</form>
+						<div className="reservations-calender-container">
+							<Calendar />
+						</div>
 					</div>
 
 					<div className="reservations-table-container">

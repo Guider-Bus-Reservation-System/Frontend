@@ -31,6 +31,10 @@
 	padding: 30px;
 }
 
+.reservations-bus-form-container {
+	width: 40%;
+}
+
 .reservations-bus-form {
 	display: flex;
 	flex-direction: column;
@@ -78,6 +82,16 @@
 
 .reservations-btn:hover {
 	background-color: #0069d9;
+}
+
+.reservations-calender-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 20px 50px;
+	padding: 20px;
+	align-items: right;
+	justify-content: right;
 }
 
 .reservations-table-container {
