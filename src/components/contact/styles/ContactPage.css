@@ -129,7 +129,6 @@ label {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	float: right;
 }
 
 .row button[type="submit"]:hover {

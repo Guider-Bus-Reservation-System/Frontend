@@ -87,6 +87,7 @@ ul {
 .about-body h2 {
 	background: #1c2236;
 	color: white;
+	padding-left: 15px;
 }
 
 @keyframes changeLetter {
