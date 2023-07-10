@@ -1,36 +1,10 @@
-/*.navbar {
-	background: #1c2236;
-	color: white;
-	height: 60px;
-	width: 100%;
-}
-
-.navbar-links {
-	display: flex;
-	font-weight: 500;
-	cursor: pointer;
-}
-
-.navbar-links-item + .navbar-links-item {
-	margin-left: 40px;
-}
-
-.navbar-links-item a {
-	color: white;
-	text-decoration: none;
-}
-
-.navbar-links-item :hover {
-	color: blue;
-}
-*/
-
 .navbar-links {
 	background: #1c2236;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .navbar-links-item {
