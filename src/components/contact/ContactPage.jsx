@@ -1,7 +1,16 @@
+import emailjs from 'emailjs-com';
 import React from "react";
 import "./styles/ContactPage.css";
-
 const ContactPage = () => {
+
+     function sendEmail(e){
+		e.preventDefault();
+
+		emailjs.sendForm('service_v3f6c06','template_41j8hbp',e.target,"Diz7XUJ-OACx-nPG_").then (res => {
+			console.log(res);
+		}).catch(err => console.log(err));
+	 }
+
 	return (
 		<React.Fragment>
 			<div className="contact-container">
@@ -9,24 +18,25 @@ const ContactPage = () => {
 					<div className="contact-container-left-header">
 						<h2>Get in touch</h2>
 					</div>
-					<form className="contact-form">
+					<form className="contact-form" onSubmit= {sendEmail}>
 						<div className="row">
 							<div className="col-25">
-								<label for="name">Name : </label>
+								<label for="name">Name: </label>
 							</div>
 							<div className="col-75">
-								<input type="text" placeholder="Your Name" />
+								<input type="text" name = "name" placeholder="Your Name" />
 							</div>
 						</div>
 
 						<div className="row">
 							<div className="col-25">
-								<label for="email">Email : </label>
+								<label for="email">Email: </label>
 							</div>
 							<div className="col-75">
 								<input
 									type="email"
 									rows="10"
+									name="email"
 									placeholder="Your Email"
 								/>
 							</div>
@@ -37,7 +47,7 @@ const ContactPage = () => {
 								<label for="message">Message: </label>
 							</div>
 							<div className="col-75">
-								<textarea placeholder="Your Message"></textarea>
+								<textarea name = "message" placeholder="Your Message"></textarea>
 							</div>
 						</div>
 
@@ -46,6 +56,11 @@ const ContactPage = () => {
 						</div>
 					</form>
 				</div>
+               
+			   
+				 
+				
+
 				<div className="contact-container-right">
 					<div className="contact-container-right-header">
 						<h2>Contact us</h2>
