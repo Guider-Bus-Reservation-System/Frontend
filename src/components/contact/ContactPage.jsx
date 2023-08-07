@@ -1,15 +1,48 @@
 import emailjs from 'emailjs-com';
-import React from "react";
+import React, { useState } from "react";
 import "./styles/ContactPage.css";
+
+
 const ContactPage = () => {
 
-     function sendEmail(e){
+    const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		message: "",
+	  });
+
+
+	  const [isSubmitted, setIsSubmitted] = useState(false);
+
+	  const handleChange = (e) => {
+		const { name, value } = e.target;
+		setFormData((prevState) => ({ ...prevState, [name]: value }));
+	  };
+
+	  const handleSubmit = (e) => {
 		e.preventDefault();
 
-		emailjs.sendForm('service_v3f6c06','template_41j8hbp',e.target,"Diz7XUJ-OACx-nPG_").then (res => {
-			console.log(res);
-		}).catch(err => console.log(err));
-	 }
+		if (!formData.name || !formData.email || !formData.message) {
+			// Check if any of the form fields are empty
+			alert("Please fill in all the required fields.");
+			return;
+		  }
+		  
+
+		emailjs
+		.sendForm("service_v3f6c06", "template_41j8hbp", e.target, "Diz7XUJ-OACx-nPG_")
+		.then((res) => {
+		  console.log(res);
+		  setFormData({ name: "", email: "", message: "" }); // Clear form fields after successful submission
+		  setIsSubmitted(true);
+		  setTimeout(() => {
+		  setIsSubmitted(false);
+				}, 3000);
+			})
+			.catch((err) => console.log(err));
+		
+      };
+
 
 	return (
 		<React.Fragment>
@@ -18,13 +51,19 @@ const ContactPage = () => {
 					<div className="contact-container-left-header">
 						<h2>Get in touch</h2>
 					</div>
-					<form className="contact-form" onSubmit= {sendEmail}>
+					<form className="contact-form" onSubmit= {handleSubmit}>
 						<div className="row">
 							<div className="col-25">
 								<label for="name">Name: </label>
 							</div>
 							<div className="col-75">
-								<input type="text" name = "name" placeholder="Your Name" />
+							<input
+									type="text"
+									name="name"
+									placeholder="Your Name"
+									value={formData.name}
+									onChange={handleChange}
+								/>
 							</div>
 						</div>
 
@@ -38,6 +77,8 @@ const ContactPage = () => {
 									rows="10"
 									name="email"
 									placeholder="Your Email"
+									value={formData.email}
+									onChange={handleChange}
 								/>
 							</div>
 						</div>
@@ -47,7 +88,13 @@ const ContactPage = () => {
 								<label for="message">Message: </label>
 							</div>
 							<div className="col-75">
-								<textarea name = "message" placeholder="Your Message"></textarea>
+							<textarea
+									name="message"
+									placeholder="Your Message"
+									value={formData.message}
+									onChange={handleChange}
+                             ></textarea>
+
 							</div>
 						</div>
 
@@ -55,7 +102,15 @@ const ContactPage = () => {
 							<button type="submit">Send Message</button>
 						</div>
 					</form>
-				</div>
+                        
+					{isSubmitted && (
+                         <div className="success-message">
+                                    Message was successfully sent!
+
+			       	</div>
+					
+					)}
+				  </div>
                
 			   
 				 

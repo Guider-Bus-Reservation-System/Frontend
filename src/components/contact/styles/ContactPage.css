@@ -132,7 +132,7 @@ label {
 }
 
 .row button[type="submit"]:hover {
-	background-color: #27139c;
+	background-color: #19d4c5;
 }
 
 /*.contact-container-right {
@@ -164,7 +164,7 @@ label {
 }
 
 .place {
-	margin-left: 62px;
+	margin-left: 15px;
 }
 
 .phone {
@@ -195,4 +195,15 @@ label {
 	.contact-container-right {
 		width: 40%;
 	}
+
+	
+	.success-message {
+		background-color: #19d4c5;
+		color: white;
+		padding: 10px;
+		border-radius: 4px;
+		text-align: center;
+		margin-top: 10px;
+  }
+  
 }
