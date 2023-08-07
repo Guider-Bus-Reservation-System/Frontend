@@ -1,5 +1,4 @@
 .navbar-links {
-	background: #1c2236;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -9,7 +8,6 @@
 
 .navbar-links-item {
 	float: right;
-	border-left: 1px solid #bbb;
 }
 
 .navbar-links-item:last-child {
@@ -17,17 +15,23 @@
 }
 
 .navbar-links-item a {
+	font-family: 'Josefin Sans',sans-serif;
 	display: block;
 	color: white;
+	font-weight: bold;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-
-.navbar-links-item a:hover:not(.active) {
-	background-color: #111;
+.navbar-links-item :hover{
+	color:linear-gradient(to bottom left, #006ebe, #62b7df);
+	color:	#006ebe;
+	transition: 4s;
 }
+/*.navbar-links-item a:hover:not(.active) {
+	color: #111;
+}*/
 
 .navbar-links-item .active {
-	background-color: #000080;
+	background-color: transparent;
 }
