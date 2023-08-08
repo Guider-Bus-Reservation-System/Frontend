@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faUser, faBell } from '@fortawesome/free-solid-svg-icons';
-import './Services.css';
+import { faCalendarDays, faBars, faUser, faBell } from '@fortawesome/free-solid-svg-icons';
 
+import './Services.css';
 const ServicesExperiences = ({ title, description }) => {
   return (
     <div className="card">
-      <FontAwesomeIcon icon={faBars} style={{ color: '#f9004d' }} />
+      <FontAwesomeIcon icon={faBars} style={{ color: 'white' }} />
       <h5>{title}</h5>
       <div className="pra">
         <p>{description}</p>
@@ -19,3 +19,5 @@ const ServicesExperiences = ({ title, description }) => {
 };
 
 export default ServicesExperiences;
+/*
+*/

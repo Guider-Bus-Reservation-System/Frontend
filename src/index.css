@@ -11,6 +11,12 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+.title h1{
+	font-size: 75px;
+    width: 1330px;
+    margin: 20px auto;
+    text-align: center;
+}
 .box{
     display: flex;
     justify-content: center;

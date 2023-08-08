@@ -1,9 +1,9 @@
 
 .card{
-    height: 400px;
+    height: 350px;
     width: 335px;
     padding: 20px 35px;
-    background:#62b7df ;
+	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -16,7 +16,7 @@
     display: block;
     text-align: center;
     margin: 15px 0px;
-    color: #f9004d;
+    color: gray;
 }
 h5{
     color: white;
@@ -31,8 +31,8 @@ h5{
 }
 
 .card .button{
-    background-color:#f9004d ;
-    color: white;
+    background-color:white ;
+    color: grey;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -42,6 +42,7 @@ h5{
 }
 .card .button:hover{
     background-color: transparent;
-    border-color: #f9004d;
+    border-color: white;
+    color: white;
     cursor: pointer;  
 }  

@@ -1,5 +1,7 @@
 import React from 'react';
 import ServicesExperiences from '../components/ourServices/Services';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // <-- Add this import
+import { faCalendarDays, faBars, faUser, faBell } from '@fortawesome/free-solid-svg-icons';
 
 
 const Allservices = () => {
@@ -11,16 +13,20 @@ const Allservices = () => {
             <i className="fa-solid fa-arrow-left" id="leftarrow" style={{ color: 'white', width: '100px' }}></i>
           </a>
         </div>
-        <div className="title">
+        <div className="title" style={{padding:'50px', textAlign:'center' }}>
+           
+
           <h2>Our Services</h2>
         </div>
         <div className="box">
           <ServicesExperiences
+            icon={<FontAwesomeIcon icon={faCalendarDays} style={{ color: 'white' }} />}
             title="Time Table Management"
             description="Manage and organize schedules for various events and activities efficiently."
           />
 
           <ServicesExperiences
+            icon ="faCalendarDays"
             title="Seat Booking and Reservation"
             description="Enable users to book and reserve seats for events, shows, or transportation."
           />

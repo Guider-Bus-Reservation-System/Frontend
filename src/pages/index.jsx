@@ -44,7 +44,9 @@ const Index = () => {
 				</div>
 
 				<div className="home-body">
-
+				<div>
+					
+				</div>
 				<div className="Service Boxes">
 					<div className="services-container">
 						<Services />
