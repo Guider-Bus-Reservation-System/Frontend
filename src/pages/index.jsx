@@ -6,7 +6,6 @@ import Navbar from "../components/common/navbar";
 import Search from "../components/index/search";
 import Footer from "../components/common/footer";
 import Slideshow from "../components/index/slideshow";
-
 import "./styles/index.css";
 
 const Index = () => {
@@ -23,9 +22,7 @@ const Index = () => {
 					</div>
 
 					<div className="home-header-container">
-						<div className="home-header-logo">
-							<FontAwesomeIcon icon={faBus} />
-						</div>
+
 						<div className="home-header-title">
 							Welcome to Guider
 						</div>

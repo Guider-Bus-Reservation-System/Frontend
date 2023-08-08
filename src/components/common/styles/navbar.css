@@ -28,6 +28,9 @@
 	color:	#006ebe;
 	transition: 4s;
 }
+.navbar-links-logo a{
+	color: white;
+}
 /*.navbar-links-item a:hover:not(.active) {
 	color: #111;
 }*/

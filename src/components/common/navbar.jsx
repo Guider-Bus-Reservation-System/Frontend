@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBus } from "@fortawesome/free-solid-svg-icons";
 import "./styles/navbar.css";
 
 const Navbar = () => {
@@ -8,6 +9,8 @@ const Navbar = () => {
 		<React.Fragment>
 			<div className="navbar">
 				<div className="navbar-links">
+
+
 					 {/*navigation bar item 6*/}
 					 <div className="navbar-links-item">
 						<Link to="/contact">Contact Us</Link>
@@ -32,10 +35,13 @@ const Navbar = () => {
 					</div>
 					
 					{/*navigation bar item 1*/}
-					<div className="navbar-links-item"
-						style={{ float: "left" }}
-					>
+					<div className="navbar-links-item">
 						<Link to="/" className="active">Home</Link>
+					</div>
+					<div>
+						{/*navigation bar item 6*/}
+						<div className="navbar-links-logo" style={{ color: 'white' }}>							<FontAwesomeIcon icon={faBus} />
+						</div>
 					</div>
 				</div>
 			</div>
