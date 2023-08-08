@@ -15,7 +15,7 @@ footer * {
 }
 .row.primary {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 2fr;
+	grid-template-columns: 2fr 1fr 2fr;
 	align-items: stretch;
 }
 .column {
@@ -66,15 +66,24 @@ button {
 }
 
 .column.subscribe button {
-	background-color: #1d3890;
+	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
 	color: #ffffff;
+	border: 2px solid transparent;
+
 }
 
 .column.subscribe button:hover {
-	background-color: #4360c0;
-	color: #ffffff;
+	background-image: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer; 
+	transition: 3px; 
 }
 
+.column.subscribe button:visited{
+	background-color: grey;
+	color: #25262e;
+}
 div.social {
 	display: flex;
 	justify-content: space-around;

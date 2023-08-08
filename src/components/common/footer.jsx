@@ -43,23 +43,7 @@ const Footer = () => {
 					</ul>
 				</div>
 
-				<div className="column links">
-					<h3>Some Links</h3>
-					<ul>
-						<li>
-							<a href="#faq">F.A.Q</a>
-						</li>
-						<li>
-							<a href="#cookies-policy">Cookies Policy</a>
-						</li>
-						<li>
-							<a href="#terms-of-services">Terms Of Service</a>
-						</li>
-						<li>
-							<a href="#support">Support</a>
-						</li>
-					</ul>
-				</div>
+
 
 				<div className="column subscribe">
 					<h3>Newsletter</h3>
