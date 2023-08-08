@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./styles/addBus.css";
 
 const AddBus = (props) => {
@@ -39,6 +38,7 @@ const AddBus = (props) => {
 							name="arrival-time-1"
 						/>
 					</div>
+
 					<div className="add-bus-time-group">
 						<label htmlFor="departure-time">Departure Time</label>
 						<input

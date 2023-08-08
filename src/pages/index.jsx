@@ -7,6 +7,7 @@ import Search from "../components/index/search";
 import Footer from "../components/common/footer";
 import Slideshow from "../components/index/slideshow";
 import "./styles/index.css";
+import Services from "./allservices";
 
 const Index = () => {
 	return (
@@ -42,7 +43,14 @@ const Index = () => {
 					</div>
 				</div>
 
-				<div className="home-body"></div>
+				<div className="home-body">
+
+				<div className="Service Boxes">
+					<div className="services-container">
+						<Services />
+					</div>
+				</div>
+				</div>
 
 				<div className="home-footer">
 					<Footer />
