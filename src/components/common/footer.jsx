@@ -14,7 +14,7 @@ const Footer = () => {
 						Guider is an online bus reservation and information
 						system that aims to provide a convenient and
 						user-friendly platform for users to book bus tickets and
-						access relevant information.
+						access relevant information. Helloooooooooooo
 					</p>
 					<div className="social">
 						<i className="fa-brands fa-facebook-square"></i>
