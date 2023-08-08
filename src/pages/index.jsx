@@ -49,6 +49,7 @@ const Index = () => {
 				</div>
 				<div className="Service Boxes">
 					<div className="services-container">
+
 						<Services />
 					</div>
 				</div>
