@@ -8,7 +8,7 @@ const About = () => {
 
   const handleCardClick = (cardId) => {
     if (expandedCardId === cardId) {
-      setExpandedCardId(null); // Collapse if already expanded
+      setExpandedCardId(null); // Collapse if already expandedkkkkkkk
     } else {
       setExpandedCardId(cardId); // Expand the clicked card
     }
