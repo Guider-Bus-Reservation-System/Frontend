@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+
+}
 .about {
 	display: flex;
 	flex-direction: column;
@@ -75,41 +79,116 @@ ul {
 	margin-left: 20px;
 }
 
-.contact-info {
-	margin-top: 40px;
-	font-size: 16px;
-}
 
-.contact-info a {
-	color: #007bff;
-}
+.column {
+	float: left;
+	width: 33.33%; /* Adjust the width to fit three cards in a row */
+	padding: 0 10px;
+	box-sizing: border-box;
 
-.about-body h2 {
-	background: #1c2236;
-	color: white;
-	padding-left: 15px;
 }
+  
+.row {
+	margin: 0 -10px; /* Add negative margin to account for padding */
+	display: flex;
+	flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+	padding: 64px;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .column-66 {
+	float: left;
+	width: 66.66666%;
+	padding: 20px;
+  }
+  
+  .column-33 {
+	float: left;
+	width: 33.33333%;
+	padding: 20px;
+  }
+  
+  .galery{
+	text-align: center;
+  }
+  
+  
+  img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+	.column-66,
+	.column-33,
+	.column {
+	  width: 100%;
+	  text-align: center;
 
-@keyframes changeLetter {
-	0% {
-		content: "Guider";
 	}
-	50% {
-		color: white;
-	}
-	100% {
-		content: "Guider";
-	}
+	
+  }
+  
+  .container-clarity {
+	background-color: #f1f1f1;
+  }
+  
+  
+  .card{
+    height: 400px;
+    width: 335px;
+    padding: 5px 05px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+	display: flex;
+    align-items: center;
+    overflow: hidden;
+	transition: transform 0.3s ease; 
+	cursor: pointer; 
+   
 }
+  
+  .card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+  }
+  
+  .card.expanded {
+	transform: scale(1.05);
+	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+	z-index: 1;
+	cursor: pointer;
+  }
+  
 
-.element {
-	&:after {
-		animation: changeLetter 3s linear infinite alternate;
-		display: block;
-		content: "About Guider";
-		font-size: 60px;
-	}
-}
+
+
 
 .about-footer {
 	padding: 0;
