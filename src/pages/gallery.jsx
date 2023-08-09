@@ -47,11 +47,7 @@ const Gallery = () => {
           }}
 
         />
-
-        {/* Add more CardG components here */}
-      </div>
-
-      <div className="box2">
+     
         <CardG
           title={{
             imageSrc: "https://th.bing.com/th/id/R.45c302c58438a8ac30ede52d08aa8251?rik=kZP5TlDf%2fRMAnA&riu=http%3a%2f%2fwww.lanka-excursions-holidays.com%2fuploads%2f4%2f0%2f2%2f1%2f40216937%2fethugala-in-kurunegala_orig.jpg&ehk=B0cHTQkvcQD0fxGurucFwfMLQv%2f3dtI8bXV9LCAYGTw%3d&risl=&pid=ImgRaw&r=0",
@@ -75,8 +71,8 @@ const Gallery = () => {
           }}
           
         />
-      </div>
 
+      </div>
      
     </div>
   );
