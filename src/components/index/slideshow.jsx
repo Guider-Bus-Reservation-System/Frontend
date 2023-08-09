@@ -38,16 +38,16 @@ const Slideshow = () => {
 			<div className="slideshow-container">
 				<div className="mySlides fade">
 					<img
-						src="homepage.png"
-						alt="homepage.png"
+						src="img1.jpg"
+						alt="img1.jpg"
 						style={{ width: "100%" }}
 					/>
 				</div>
 
 				<div className="mySlides fade">
 					<img
-						src="img1.jpg"
-						alt="img1.jpg"
+						src="img3.jpg"
+						alt="img3.jpg"
 						style={{ width: "100%" }}
 					/>
 				</div>
@@ -59,6 +59,10 @@ const Slideshow = () => {
 						style={{ width: "100%" }}
 					/>
 				</div>
+
+				
+
+				
 			</div>
 
 			<br />
