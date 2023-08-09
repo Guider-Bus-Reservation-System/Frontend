@@ -124,49 +124,7 @@ const Reservations = () => {
 						<div className="reservations-calender-container"></div>
 					</div>
 
-					<div className="reservations-table-container">
-						<table class="reservations-table">
-							<thead>
-								<tr>
-									<th class="reservations-table_header">
-										No.
-									</th>
-									<th class="reservations-table_header">
-										But Number
-									</th>
-									<th class="reservations-table_header">
-										Passengers
-									</th>
-									<th class="reservations-table_header">
-										Time
-									</th>
-									<th class="reservations-table_header">
-										Actions
-									</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td class="reservations-table_data">1</td>
-									<td class="reservations-table_data">
-										#B001
-									</td>
-									<td class="reservations-table_data">2</td>
-									<td class="reservations-table_data">
-										10:00 AM
-									</td>
-									<td class="reservations-table_data">
-										<button class="reservations-table_btn">
-											Edit
-										</button>
-										<button class="reservations-table_btn">
-											Delete
-										</button>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+
 				</div>
 
 				<div className="reservations-footer">

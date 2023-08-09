@@ -47,15 +47,6 @@ const Timetable = () => {
 					</div>
 				</div>
 
-				<div className="timetable-add-bus">
-					<button
-						className="timetable-add-bus-button"
-						onClick={handleAddBusClick}
-					>
-						Add Bus
-					</button>
-				</div>
-
 				<div className="timetable-body">
 					<table className="timetable-table">
 						<thead>

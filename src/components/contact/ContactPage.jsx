@@ -124,7 +124,7 @@ const ContactPage = () => {
 						<li class="list-item">
 							<i class="fa fa-map-marker fa-2x">
 								<span class="contact-text place">
-									<a title="FOT,USJ,Pitipana.">
+									<a >
 										FOT,USJ,Pitipana.
 									</a>
 								</span>
