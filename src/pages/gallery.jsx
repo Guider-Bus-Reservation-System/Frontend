@@ -1,11 +1,12 @@
 import React from 'react';
-import ServicesExperiences from '../components/ourServices/Services';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // <-- Add this import
 import { faCalendarDays, faBars, faUser, faBell } from '@fortawesome/free-solid-svg-icons';
+import CardG from '../components/gallery/card';
 
 
 
-const Allservices = () => {
+const Gallery = () => {
   return (
     <div>
       <div className="blankback" id="experiences">
@@ -20,37 +21,31 @@ const Allservices = () => {
           <h2>Our Services</h2>
         </div>
         <div className="box">
-          <ServicesExperiences
+          <CardG
             icon={<FontAwesomeIcon icon={faCalendarDays} style={{ color: 'white' }} />}
             title="Time Table Management"
-            description="Manage and organize schedules for various events and activities efficiently."
           />
 
-          <ServicesExperiences
+          <CardG
             icon ="faCalendarDays"
             title="Seat Booking and Reservation"
-            description="Enable users to book and reserve seats for events, shows, or transportation."
           />
 
-          <ServicesExperiences
+          <CardG
             title="News and Announcement"
-            description="Keep users informed by displaying news and announcements in real-time."
           />
         </div>
         <div className="box2">
-          <ServicesExperiences
+          <CardG
             title="Real-time Tracking and Monitoring"
-            description="Provide live tracking and monitoring of activities or vehicles."
           />
 
-          <ServicesExperiences
+          <CardG
             title="Cancellations and Refunds"
-            description="Handle cancellations and refunds smoothly and hassle-free."
           />
 
-          <ServicesExperiences
+          <CardG
             title="Customer Support and Notifications"
-            description="Offer excellent customer support and send important notifications."
           />
         </div>
       </div>
@@ -58,4 +53,4 @@ const Allservices = () => {
   );
 };
 
-export default Allservices;
+export default Gallery;

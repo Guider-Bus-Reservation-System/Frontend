@@ -1,0 +1,47 @@
+.card-gallery{
+    height: 350px;
+    width: 335px;
+    padding: 20px 35px;
+	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-gallery i{
+    font-size:50px ;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    color: gray;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:#fcfc ;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom:25px ;
+}
+
+.card-gallery .button{
+    background-color:white ;
+    color: grey;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card-gallery .button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;  
+}  
