@@ -1,6 +1,7 @@
 .search-timetable-container {
 	display: flex;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	
 }
 
 .search-timetable-left {
@@ -8,7 +9,7 @@
 	align-items: center;
 	width: 30%;
 	height: 320px;
-	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
+	background-image: linear-gradient(to bottom left,rgb(228, 147, 228), rgb(153, 80, 153));
 }
 
 .search-timetable-right {
@@ -16,6 +17,8 @@
 	width: 70%;
 	height: 320px;
 	background-color: white;
+	border-radius: 10px;
+	
 }
 
 .search-timetable-left-title {
@@ -29,10 +32,13 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	
+	
 }
 
 .search-timetable-right-form-container {
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .search-timetable-form {
@@ -44,12 +50,12 @@
 }
 
 .search-timetable-form-row {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	max-width: 800px;
-	margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly between the two ends */
+    align-items: center; /* Vertically align items */
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 1rem;
 }
 
 .search-timetable-form-group {
@@ -60,7 +66,12 @@
 .search-timetable-label {
 	display: block;
 	margin-bottom: 0.5rem;
-	font-weight: bold;
+	font-weight: none;
+}
+
+label{
+	text-align: left;
+	padding: 0.25rem 0;
 }
 
 .search-timetable-select,
@@ -72,7 +83,7 @@
 	font-size: 1rem;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #f5f5f5;
+	background-color: #ffffff;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -80,7 +91,7 @@
 .search-timetable-date:focus,
 .search-timetable-passengers:focus {
 	outline: none;
-	box-shadow: 0 0 0 2px #006ebe;
+	box-shadow: 0 0 0 3px #3c3e3f;
 }
 
 .search-timetable-button {
@@ -89,7 +100,7 @@
 	border: none;
 	border-radius: 0.25rem;
 	color: #fff;
-	background-color: #006ebe;
+	background-color: rgb(180, 95, 180);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	margin-right: -10px;
@@ -97,9 +108,35 @@
 }
 
 .search-timetable-button:hover {
-	background-color: #02a1ed;
+	background-color: rgb(179, 117, 179);
 }
 
 .search-timetable-input[id="passengers"] {
 	width: 95%;
+}
+
+.search-timetable-form-group-left,
+.search-timetable-form-group-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align labels to the left */
+}
+
+.search-timetable-form-group-right {
+    align-items: flex-end; /* Align inputs and button to the right */
+}
+
+.search-timetable-select,
+.search-timetable-date,
+.search-timetable-passengers {
+    /* Adjust width as needed for the layout */
+    width: 100%;
+    height: 2.1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

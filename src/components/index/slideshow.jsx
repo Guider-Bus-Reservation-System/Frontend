@@ -46,8 +46,8 @@ const Slideshow = () => {
 
 				<div className="mySlides fade">
 					<img
-						src="img1.png"
-						alt="img1.png"
+						src="img1.jpg"
+						alt="img1.jpg"
 						style={{ width: "100%" }}
 					/>
 				</div>
