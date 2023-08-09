@@ -25,7 +25,7 @@ const About = () => {
 					<div className="sub-header-container">
 						<div className="sub-header-title">About</div>
 						<div className="home-header-subtitle">
-							Guider: Expressway Bus Transport Management &
+							Expressway Bus Transport Management &
 							Information System
 						</div>
 					</div>

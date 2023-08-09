@@ -30,6 +30,8 @@
 
 .about-body {
 	padding: 70px;
+	margin-left: 8%;
+	margin-right: 8%;
 }
 
 .about-card-container {
@@ -44,7 +46,7 @@
 
 .about-heading {
 	font-size: 28px;
-	margin-bottom: 20px;
+	
 }
 
 .about-content {
@@ -61,13 +63,20 @@
 	flex: 1;
 }
 
-h2 {
-	font-size: 24px;
+.about-body p h2 {
+	font-size: 28px;
 	margin-bottom: 10px;
+	height: 45px;
+	border-style: none;
+	border-radius: 10px;
+	font-weight: lighter;
+	
 }
 
-p {
+.about-body p {
 	line-height: 1.5;
+	font-size: 16px;
+	color: rgb(87, 86, 86);
 }
 
 ul {
@@ -75,17 +84,19 @@ ul {
 	margin-left: 20px;
 }
 
+
 .contact-info {
 	margin-top: 40px;
-	font-size: 16px;
+	font-size: 18px;
+	
 }
 
 .contact-info a {
-	color: #101317;
+	color: black;
 }
 
 .about-body h2 {
-	background: #1c2236;
+	background: rgb(119, 135, 182);
 	color: white;
 	padding-left: 15px;
 }
@@ -95,7 +106,7 @@ ul {
 		content: "Guider";
 	}
 	50% {
-		color: white;
+		color: rgb(204, 202, 202);
 	}
 	100% {
 		content: "Guider";
@@ -104,10 +115,12 @@ ul {
 
 .element {
 	&:after {
-		animation: changeLetter 3s linear infinite alternate;
+		animation: changeLetter 4s linear infinite alternate;
 		display: block;
 		content: "About Guider";
 		font-size: 60px;
+		color: rgb(119, 135, 182);
+		margin-bottom: 30px;
 	}
 }
 

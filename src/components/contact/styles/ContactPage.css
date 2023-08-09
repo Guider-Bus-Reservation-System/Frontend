@@ -61,8 +61,8 @@ button:hover {
 
 .contact-container {
 	width: 100%;
-	border-radius: 5px;
-	background-color: #f2f2f2;
+	
+	background-color: rgb(171, 181, 218);
 	padding: 15px;
 }
 
@@ -81,7 +81,7 @@ button:hover {
 	align-items: center;
 	width: 40%;
 	height: 430px;
-	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
+	background-image: linear-gradient(to bottom left, rgb(93, 106, 145), rgb(183, 194, 233));
 }
 
 .contact-container-left-header {
@@ -92,6 +92,7 @@ button:hover {
 	float: left;
 	width: 25%;
 	margin-top: 6px;
+	
 }
 
 .col-75 {
@@ -118,25 +119,26 @@ textarea {
 }
 
 label {
-	padding: 12px 120px 12px 0;
+	padding: 12px 120px 12px 30px;
 	display: inline-block;
 }
 
 .row button[type="submit"] {
-	width: 88%;
-	background-color: #006ebe;
+	width: 85%;
+	background-color: rgb(119, 135, 182);
 	color: white;
-	padding: 12px 20px 12px 0;
+	margin-left: 30px;
 	border: 2px solid transparent;
     font-weight: bold;
-	border-radius: 4px;
 	cursor: pointer;
+	font-size: 18px;
+	height: 55px;
 }
 
 .row button[type="submit"]:hover {
-	background-color:transparent;
-	border-color: #006ebe;
-	color:#006ebe;
+	background-color:rgb(230, 232, 240);
+	border-color: rgb(119, 135, 182);
+	color:rgb(119, 135, 182);
 }
 
 /*.contact-container-right {
@@ -148,6 +150,14 @@ label {
 .contact-container-right-header {
 	margin: 15px 0 25px 0;
 	color: #fff;
+}
+
+.contact-container-left-header h2{
+	font-size: 30px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+
 }
 
 .contact-list {
