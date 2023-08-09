@@ -16,16 +16,16 @@ const About = () => {
 
 					<div className="about-header-image-container">
 						<img
-							src="img6_.jpg"
+							src="homepage.png"
 							alt="homepage"
 							className="about-header-image"
 						/>
 					</div>
 
-					<div className="sub-header-container">
-						<div className="sub-header-title">About</div>
+					<div className="home-header-container">
+						<div className="home-header-title">About</div>
 						<div className="home-header-subtitle">
-							Expressway Bus Transport Management &
+							Guider: Expressway Bus Transport Management &
 							Information System
 						</div>
 					</div>

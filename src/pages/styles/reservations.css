@@ -25,22 +25,6 @@
 
 .reservations-header-image {
 	width: 100%;
-	
-}
-
-.sub-header-container{
-	margin-top: 5%;
-	position: absolute;
-	top: 10%;
-	left: 6%;
-	color: white;
-	text-shadow: 4px 4px 5px #333;
-}
-
-.sub-header-title{
-	font-size: 60px;
-	color: rgb(193, 200, 224);
-	text-shadow: #2b243e;
 }
 
 .reservations-body {
@@ -83,12 +67,12 @@
 
 .reservations-input:focus {
 	outline: none;
-	border-color: rgb(119, 135, 182);
+	border-color: #007bff;
 }
 
 .reservations-btn {
 	padding: 10px 20px;
-	background-color: rgb(119, 135, 182);
+	background-color: #007bff;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -97,7 +81,7 @@
 }
 
 .reservations-btn:hover {
-	background-color: rgb(171, 181, 218);;
+	background-color: #0069d9;
 }
 
 .reservations-calender-container {

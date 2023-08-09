@@ -18,16 +18,16 @@ const Contact = () => {
 
 					<div className="contact-header-image-container">
 						<img
-							src="img6_.jpg"
+							src="homepage.png"
 							alt="homepage"
 							className="contact-header-image"
 						/>
 					</div>
 
-					<div className="sub-header-container">
-						<div className="sub-header-title">Contact Us</div>
+					<div className="home-header-container">
+						<div className="home-header-title">Contact Us</div>
 						<div className="home-header-subtitle">
-							Expressway Bus Transport Management &
+							Guider: Expressway Bus Transport Management &
 							Information System
 						</div>
 					</div>

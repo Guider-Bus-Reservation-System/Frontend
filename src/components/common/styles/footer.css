@@ -86,14 +86,14 @@ ul li a:hover {
 }
 
 .subscribe button {
-    background-color: rgb(119, 135, 182);
+    background-color: #2a8ded;
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.3s, padding 0.3s;
 }
 
 .subscribe button:hover {
-    background-color: rgb(119, 135, 182);
+    background-color: #1e6fbf;
 }
 
 .footer-menu {

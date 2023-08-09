@@ -12,12 +12,9 @@ const Search = () => {
     }, []);
 
     const locations = [
-        { id: 1, name: "Kadawatha" },
-        { id: 2, name: "Kaluthara" },
-        { id: 3, name: "Mathara" },
-        { id: 1, name: "Kurunegala" },
-        { id: 2, name: "Makubura" },
-        { id: 3, name: "Biyagama" },
+        { id: 1, name: "City 1" },
+        { id: 2, name: "City 2" },
+        { id: 3, name: "City 3" },
     ];
 
     return (
