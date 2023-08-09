@@ -1,3 +1,21 @@
+.navbar{
+	width: 95%;
+	margin: 0;
+	justify-content: space-between;
+	position: relative;
+	z-index: 10;	
+}
+
+.logo{
+	width: auto;
+	height: 150px;
+	margin: 0;
+	cursor: pointer;
+	top: 0px;
+}
+
+
+
 .navbar-links {
 	list-style-type: none;
 	margin: 0;
@@ -8,6 +26,7 @@
 
 .navbar-links-item {
 	float: right;
+	margin-top: 10px;
 }
 
 .navbar-links-item:last-child {
@@ -15,18 +34,18 @@
 }
 
 .navbar-links-item a {
-	font-family: 'Josefin Sans',sans-serif;
+	font-family: 'Poppins', sans-serif;
 	display: block;
-	color: white;
-	font-weight: bold;
+	color: rgb(236, 234, 238);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	border-radius: 50px;
 }
 .navbar-links-item :hover{
-	color:linear-gradient(to bottom left, #006ebe, #62b7df);
-	color:	#006ebe;
-	transition: 4s;
+	background:linear-gradient(to bottom left, rgb(180, 95, 180), rgb(173, 129, 173));
+	color:	#f2f4f5;
+	transition: 1.2s;
 }
 .navbar-links-logo a{
 	color: white;
