@@ -1,47 +1,31 @@
 .card-gallery{
-    height: 350px;
-    width: 335px;
-    padding: 20px 35px;
-	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
+    height: 300px;
+    width: 295px;
+    padding: 5px 5px;
+	background-image: linear-gradient(to bottom left, #e6edf200, #e0eaef);
     border-radius: 20px;
-    margin: 15px;
-    position: relative;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #9a8f8f;
+    margin: 30px;
+    position: auto;
     overflow: hidden;
-    text-align: center;
+    transition: transform 0.3s ease; 
+	cursor: pointer;
 }
 
-.card-gallery i{
-    font-size:50px ;
-    display: block;
-    text-align: center;
-    margin: 15px 0px;
-    color: gray;
-}
-h5{
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-.pra p{
-    color:#fcfc ;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom:25px ;
-}
 
-.card-gallery .button{
-    background-color:white ;
-    color: grey;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition: .4s;
+  
+  .card-gallery img {
+	height: 100%;
+    width: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+  }
+  
+  .card-gallery:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  z-index: 1;
+  cursor: pointer;
 }
-.card-gallery .button:hover{
-    background-color: transparent;
-    border-color: white;
-    color: white;
-    cursor: pointer;  
-}  

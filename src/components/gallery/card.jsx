@@ -4,18 +4,13 @@ import { faCalendarDays, faBars, faUser, faBell } from '@fortawesome/free-solid-
 import './gallery.css';
 
 
-const CardG = ({ title, description }) => {
+const CardG = ({ title, alt }) => {
   return (
     <div className="card-gallery">
-      <FontAwesomeIcon icon={faBars} style={{ color: 'white' }} />
-      <h5>{title}</h5>
-      <div className="pra">
-          <a className="button" href="#">Read More</a>
-      </div>
+      <img src={title.imageSrc} alt={alt || "Image"} />
     </div>
   );
 };
 
 export default CardG;
-/*
-*/
+
