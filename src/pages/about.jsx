@@ -30,7 +30,6 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-<<<<<<< Updated upstream
 
 				<div className="about-body">
 					<p>
@@ -118,37 +117,6 @@ const About = () => {
 						daily commute a smooth and enjoyable journey.
 					</p>
 				</div>
-=======
-				<div className="about-content">
-                    <div className="welcome">
-                        <h2><bold>Welcome to Guider</bold></h2><br/>
-						<p>At Guider, we envision a future where public transportation is accessible, convenient, and sustainable. We strive to create a reliable and efficient bus transport system that connects people, communities, and businesses across Sri Lanka. Our goal is to contribute to the development of a greener and more interconnected society.</p>
-                    </div>
-
-				
-						<img src="your-vision-image.jpg" alt="Our Vision" className="content-image" />
-						
-
-
-					<div className="content-with-image">
-        <div className="content-text">
-            <h2>What We Offer</h2>
-            <ul>
-                <li>Bus Scheduling and Routing:</li>
-                {/* ... Rest of the content ... */}
-            </ul>
-        </div>
-        <img src="your-offer-image.jpg" alt="What We Offer" className="content-image" />
-    </div>
-
-						<div className="get-in-touch">
-                        <h2>Get in Touch</h2>
-                        <p>We believe in open communication and value your thoughts and suggestions. If you have any questions, feedback, or partnership inquiries, please don't hesitate to reach out to our team. We're here to assist you and make your experience with Guider exceptional. Thank you for choosing Guider as your preferred Expressway Bus Transport Management & Information System. We look forward to serving you and making your daily commute a smooth and enjoyable journey.</p>
-                    </div>
-                </div>
-					
-				
->>>>>>> Stashed changes
 				<div className="Gallery">
 					<Gallery />
 				</div>
