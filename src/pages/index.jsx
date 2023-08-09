@@ -22,17 +22,22 @@ const Index = () => {
 						<Slideshow className="home-header-image" />
 					</div>
 
-					<div className="home-header-container">
+					<div className="container"> 
+						<div className="info">
+							<div className="home-header-container">
 
-						<div className="home-header-title">
-							Welcome to Guider
-						</div>
-						<div className="home-header-subtitle">
-							Guider: Expressway Bus Transport Management &
-							Information System
-						</div>
-						<div className="home-header-button">
-							<button>Book your seat</button>
+								<div className="home-header-title">
+								<p>Welcome to </p><span> Guider</span> 
+								
+								</div>
+								<div className="home-header-subtitle">
+								<i>Find your own way. <span>Your guider is here.</span></i>
+								
+								</div>
+								<div className="home-header-button">
+									<button>Book your seat</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

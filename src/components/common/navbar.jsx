@@ -7,8 +7,11 @@ import "./styles/navbar.css";
 const Navbar = () => {
 	return (
 		<React.Fragment>
-			<div className="navbar">
-				<div className="navbar-links">
+			<div className="navbar-links">
+				<div className="navbar">
+
+				<img src="logo1-removebg-preview.png"
+							class="logo"/>	
 
 
 					 {/*navigation bar item 6*/}
@@ -39,9 +42,7 @@ const Navbar = () => {
 						<Link to="/" className="active">Home</Link>
 					</div>
 					<div>
-						{/*navigation bar item 6*/}
-						<div className="navbar-links-logo" style={{ color: 'white' }}>							<FontAwesomeIcon icon={faBus} />
-						</div>
+						
 					</div>
 				</div>
 			</div>

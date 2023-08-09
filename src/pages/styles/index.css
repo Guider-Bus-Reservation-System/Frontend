@@ -17,7 +17,7 @@
 
 .home-header-image-container {
 	position: absolute;
-	height: 400px;
+	height: 500px;
 	overflow: hidden;
 	width: 100%;
 	z-index: -1;
@@ -30,7 +30,7 @@
 .home-header-container {
 	position: absolute;
 	top: 10%;
-	left: 10%;
+	left: 6%;
 	color: white;
 	text-shadow: 2px 2px 5px #333;
 }
@@ -40,40 +40,90 @@
 }
 
 .home-header-title {
-	font-size: 60px;
-	font-weight: 500;
+	margin-top: 20px;
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+ span{
+	color: rgb(226, 172, 226);
 }
 
+p{
+	font-size: 20px;
+	margin-bottom: 0;
+	font-weight: lighter;
+}
 .home-header-subtitle {
-	background-color: #1c2236;
-	padding: 10px 15px;
-	border-radius: 10px;
+	color: #f0eef1;
+	font-size: 15px;
+	margin: 5px 0;
+	line-height: 18px;
+	font-weight: lighter;
 }
 
 .home-header-button {
-	padding-top: 20px;
+	padding-top: 16px;
+	width: 200px;
+	height: 300px;
+	
+	
 }
 
+
+
 .home-header-button button {
-	font-size: 20px;
-	background-color: transparent;
-	border-radius: 10px;
-	border: 2px solid white;
-	padding: 10px 20px;
-	color: white;
+	padding: 15px 25px;
+	background-color: rgb(180, 95, 180);
+	outline: none;
+	border: 3px solid #fff;
+	border-radius: 25px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.3s all ease-out;
 	cursor: pointer;
+	
+}
+
+.home-header-button button:hover {
+	color: rgb(180, 95, 180);
+	border-color: rgb(180, 95, 180);
+	background-color: #e6e3e3 ;
+	}
+
+.container{
+	width: 40%;
+	height: 100vh;
+	background: rgba(86, 86, 86, 0.3);
+	backdrop-filter: blur(10px);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.info{
+	width: 550px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	left: 5%;
+	top: 18%;
+	transform: translateY(-50%);
 }
 
 .home-search-container {
-	margin-top: -40px;
+	margin-top: 1%;
 	width: 80%;
 	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 1;
 }
 
 .home-body-search {
 	height: 100%;
+	
 }
 
 .home-footer {

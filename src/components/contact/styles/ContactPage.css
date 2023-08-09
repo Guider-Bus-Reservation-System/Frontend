@@ -81,7 +81,7 @@ button:hover {
 	align-items: center;
 	width: 40%;
 	height: 430px;
-	background-image: linear-gradient(to bottom left, #1c274e, #000080);
+	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
 }
 
 .contact-container-left-header {
@@ -110,7 +110,7 @@ button:hover {
 input[type="text"],
 input[type="email"],
 textarea {
-	width: 100%;
+	width: 85%;
 	padding: 12px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -123,16 +123,20 @@ label {
 }
 
 .row button[type="submit"] {
-	background-color: #150d6a;
+	width: 88%;
+	background-color: #006ebe;
 	color: white;
 	padding: 12px 20px 12px 0;
-	border: none;
+	border: 2px solid transparent;
+    font-weight: bold;
 	border-radius: 4px;
 	cursor: pointer;
 }
 
 .row button[type="submit"]:hover {
-	background-color: #19d4c5;
+	background-color:transparent;
+	border-color: #006ebe;
+	color:#006ebe;
 }
 
 /*.contact-container-right {
@@ -154,17 +158,18 @@ label {
 
 .list-item {
 	line-height: 4;
-	color: #aaa;
+	color: white;
+	padding-left: 50px;
 }
 
 .contact-text {
 	font: 300 18px "Lato", sans-serif;
 	letter-spacing: 1.9px;
-	color: #bbb;
+	color: white;
 }
 
 .place {
-	margin-left: 15px;
+	margin-left: 58px;
 }
 
 .phone {
@@ -176,7 +181,7 @@ label {
 }
 
 .contact-text a {
-	color: #bbb;
+	color: white;
 	text-decoration: none;
 	transition-duration: 0.2s;
 }
