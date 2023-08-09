@@ -28,9 +28,7 @@
 	width: 100%;
 }
 
-.about-body {
-	padding: 70px;
-}
+
 
 .about-card-container {
 	padding-bottom: 20px;
@@ -48,47 +46,56 @@
 }
 
 .about-content {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
 }
 
-.vision {
-	flex: 1;
-	margin-right: 20px;
+
+
+.welcome,
+.get-in-touch {
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.services {
-	flex: 1;
+
+
+
+	
+
+
+
+.welcome h2
+.our-vision h2,
+.our-services h2,
+.get-in-touch h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-	font-size: 24px;
-	margin-bottom: 10px;
+.welcome p,
+.our-vision p,
+.our-services ul,
+.get-in-touch p {
+    line-height: 1.5;
 }
 
-p {
-	line-height: 1.5;
-}
-
-ul {
-	list-style-type: disc;
-	margin-left: 20px;
+.our-services ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 .contact-info {
-	margin-top: 40px;
-	font-size: 16px;
+    margin-top: 40px;
+    font-size: 16px;
 }
 
 .contact-info a {
-	color: #101317;
+    color: #101317;
 }
 
-.about-body h2 {
-	background: #1c2236;
-	color: white;
-	padding-left: 15px;
-}
 
 @keyframes changeLetter {
 	0% {
