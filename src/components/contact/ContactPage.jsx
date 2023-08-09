@@ -124,7 +124,9 @@ const ContactPage = () => {
 						<li class="list-item">
 							<i class="fa fa-map-marker fa-2x">
 								<span class="contact-text place">
-									No 123, Colombo 7, Sri Lanka
+									<a title="FOT,USJ,Pitipana.">
+										FOT,USJ,Pitipana.
+									</a>
 								</span>
 							</i>
 						</li>
@@ -146,7 +148,7 @@ const ContactPage = () => {
 							<i class="fa fa-envelope fa-2x">
 								<span class="contact-text gmail">
 									<a href="mailto:#" title="Send me an email">
-										guider@gmail.com
+										expressway.guider@gmail.com
 									</a>
 								</span>
 							</i>
