@@ -46,7 +46,10 @@
 	letter-spacing: 10px;
 }
  span{
-	color: rgb(226, 172, 226);
+	/* color: rgb(226, 172, 226); */
+	color: rgb(171, 181, 218);
+	/* color: rgb(119, 135, 182); */
+	
 }
 
 p{
@@ -74,7 +77,7 @@ p{
 
 .home-header-button button {
 	padding: 15px 25px;
-	background-color: rgb(180, 95, 180);
+	background-color: rgb(119, 135, 182);
 	outline: none;
 	border: 3px solid #fff;
 	border-radius: 25px;
@@ -87,8 +90,8 @@ p{
 }
 
 .home-header-button button:hover {
-	color: rgb(180, 95, 180);
-	border-color: rgb(180, 95, 180);
+	color: rgb(119, 135, 182);
+	border-color: rgb(119, 135, 182);
 	background-color: #e6e3e3 ;
 	}
 

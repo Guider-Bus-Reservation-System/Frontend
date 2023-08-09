@@ -9,14 +9,14 @@
 	align-items: center;
 	width: 30%;
 	height: 320px;
-	background-image: linear-gradient(to bottom left,rgb(228, 147, 228), rgb(153, 80, 153));
+	background-image: linear-gradient(to bottom left,rgb(171, 181, 218), rgb(119, 135, 182));
 }
 
 .search-timetable-right {
 	display: flex;
 	width: 70%;
 	height: 320px;
-	background-color: white;
+	background-color: rgb(236, 235, 245);
 	border-radius: 10px;
 	
 }
@@ -100,7 +100,7 @@ label{
 	border: none;
 	border-radius: 0.25rem;
 	color: #fff;
-	background-color: rgb(180, 95, 180);
+	background-color: rgb(119, 135, 182);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	margin-right: -10px;
@@ -108,7 +108,7 @@ label{
 }
 
 .search-timetable-button:hover {
-	background-color: rgb(179, 117, 179);
+	background-color: rgb(171, 181, 218);
 }
 
 .search-timetable-input[id="passengers"] {

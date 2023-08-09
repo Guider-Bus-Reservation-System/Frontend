@@ -36,14 +36,15 @@
 .navbar-links-item a {
 	font-family: 'Poppins', sans-serif;
 	display: block;
-	color: rgb(236, 234, 238);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	border-radius: 50px;
+	font-weight: bold;
 }
 .navbar-links-item :hover{
-	background:linear-gradient(to bottom left, rgb(180, 95, 180), rgb(173, 129, 173));
+	background:linear-gradient(to bottom left, rgb(119, 135, 182), rgb(171, 181, 218));
 	color:	#f2f4f5;
 	transition: 1.2s;
 }

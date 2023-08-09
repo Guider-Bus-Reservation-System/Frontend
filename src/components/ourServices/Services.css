@@ -3,7 +3,7 @@
     height: 350px;
     width: 335px;
     padding: 20px 35px;
-	background-image: linear-gradient(to bottom left, #006ebe, #62b7df);
+	background-image: linear-gradient(to bottom left, rgb(119, 135, 182), rgb(170, 179, 214));
     border-radius: 20px;
     margin: 15px;
     position: relative;

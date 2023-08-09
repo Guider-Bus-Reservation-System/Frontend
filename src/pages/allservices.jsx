@@ -3,6 +3,8 @@ import ServicesExperiences from '../components/ourServices/Services';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // <-- Add this import
 import { faCalendarDays, faBars, faUser, faBell } from '@fortawesome/free-solid-svg-icons';
 
+import './styles/allservices.css'
+
 
 
 const Allservices = () => {
@@ -11,12 +13,10 @@ const Allservices = () => {
       <div className="blankback" id="experiences">
         <div className="arrow">
           <a href="index.html">
-            <i className="fa-solid fa-arrow-left" id="leftarrow" style={{ color: 'white', width: '100px' }}></i>
+            <i className="fa-solid fa-arrow-left" id="leftarrow" ></i>
           </a>
         </div>
-        <div className="title" style={{padding:'50px', textAlign:'center' }}>
-           
-
+        <div className="title" >
           <h2>Our Services</h2>
         </div>
         <div className="box">
