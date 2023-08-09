@@ -6,7 +6,7 @@ import './Services.css';
 const ServicesExperiences = ({ title, description }) => {
   return (
     <div className="card">
-      <FontAwesomeIcon icon={faBars} style={{ color: 'white' }} />
+      <FontAwesomeIcon icon={faBars} style={{ color: 'white', marginBottom:'15px' }} />
       <h5>{title}</h5>
       <div className="pra">
         <p>{description}</p>

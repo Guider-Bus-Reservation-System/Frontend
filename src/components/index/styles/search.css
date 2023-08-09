@@ -58,6 +58,11 @@
     margin-bottom: 1rem;
 }
 
+.search-timetable-form-row button{
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .search-timetable-form-group {
 	margin: 0 0.5rem;
 	flex: 1;

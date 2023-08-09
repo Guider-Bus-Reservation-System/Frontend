@@ -9,6 +9,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
+    position: relative;
 }
 
 .card i{
@@ -24,10 +25,10 @@ h5{
     margin-bottom: 15px;
 }
 .pra p{
-    color:#fcfc ;
+    color:rgb(80, 80, 80) ;
     font-size: 16px;
     line-height: 27px;
-    margin-bottom:25px ;
+
 }
 
 .card .button{
@@ -39,6 +40,10 @@ h5{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
+    position: absolute;
+    bottom: 20%; /* Set the button's position 10% from the bottom */
+    left: 50%; /* Horizontally center the button */
+    transform: translateX(-50%); /* Adjust for centering */
 }
 .card .button:hover{
     background-color: transparent;
