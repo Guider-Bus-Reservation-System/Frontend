@@ -9,22 +9,17 @@ import Card from "../components/news/card";
 const News = () => {
 	const news = [
 		{
-			title: "Breaking News!",
-			date: "May 10, 2023",
+			title: "Bus and Lorry Collision on E01: Several Injured, Traffic Diverted",
+			date: "August 10, 2023",
 			content:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
-				"Nam aliquet varius nunc, vel tempus ex mollis eu. Nulla" +
-				"ultricies ante vel malesuada luctus. Praesent bibendum" +
-				"enim vel tellus vulputate lacinia. Aliquam vel neque",
+				"A collision between a passenger bus and a lorry on the E01 highway results in multiple injuries and disrupts traffic flow. Emergency services are deployed, and alternative routes are established.",
 		},
+
 		{
-			title: "No busses today",
-			date: "May 11, 2023",
+			title: "Eco-Friendly Buses Join Sri Lanka's Highway Transport",
+			date: "August 11, 2023",
 			content:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
-				"Nam aliquet varius nunc, vel tempus ex mollis eu. Nulla" +
-				"ultricies ante vel malesuada luctus. Praesent bibendum" +
-				"enim vel tellus vulputate lacinia. Aliquam vel neque",
+				"Sri Lanka's highway bus system welcomes a fleet of eco-friendly buses powered by clean energy sources, contributing to reduced air pollution and a more sustainable transportation solution for passengers.",
 		},
 
 		{
