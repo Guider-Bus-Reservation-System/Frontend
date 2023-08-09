@@ -19,7 +19,7 @@ const Gallery = () => {
   return (
     <div>
       <div className="title" style={{ padding: '50px', textAlign: 'center' }}>
-        <h2>Our Services</h2>
+        <h2>Most Popular Destination</h2>
       </div>
 
       <div className="box">

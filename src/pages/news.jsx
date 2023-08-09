@@ -30,13 +30,10 @@ const News = () => {
 		},
 
 		{
-			title: "Breaking News!",
+			title: "Heavy Rain Triggers Pileup: Dozens of Vehicles Involved on A9 Highway",
 			date: "May 10, 2023",
 			content:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit." +
-				"Nam aliquet varius nunc, vel tempus ex mollis eu. Nulla" +
-				"ultricies ante vel malesuada luctus. Praesent bibendum" +
-				"enim vel tellus vulputate lacinia. Aliquam vel neque",
+				"Severe rainfall leads to a massive pileup involving dozens of vehicles on the A9 highway. Poor visibility and wet road conditions contribute to the accident, emphasizing the importance of cautious driving during adverse weather.",
 		},
 	];
 
