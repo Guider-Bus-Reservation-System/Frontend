@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "../components/common/navbar";
 import Footer from "../components/common/footer";
-
+import Gallery from "./gallery";
 import "./styles/about.css";
 
 const About = () => {
@@ -117,10 +117,14 @@ const About = () => {
 						daily commute a smooth and enjoyable journey.
 					</p>
 				</div>
-
+				<div className="Gallery">
+					<Gallery />
+				</div>
 				<div className="about-footer">
 					<Footer />
 				</div>
+
+
 			</div>
 		</React.Fragment>
 	);
