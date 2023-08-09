@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarDays, faBars, faUser, faBell } from '@fortawesome/free-solid-svg-icons';
 import CardG from '../components/gallery/card';
-import Modal from 'react-modal';
 import '../components/gallery/gallery.css';
 
 const Gallery = () => {
