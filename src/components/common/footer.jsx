@@ -9,7 +9,7 @@ const Footer = () => {
 		<footer>
 			<div className="row primary">
 				<div className="column about">
-					<h3>Guider Developers</h3>
+					<h3><span>Guider Developers</span> </h3>
 					<p>
 						Guider is an online bus reservation and information
 						system that aims to provide a convenient and
@@ -26,19 +26,19 @@ const Footer = () => {
 				</div>
 
 				<div className="column links">
-					<h3>Some Links</h3>
+					<h3>Some Links <br/> </h3>
 					<ul>
 						<li>
-							<a href="#faq">F.A.Q</a>
+							<a href="#faq">F.A.Q <br/></a>
 						</li>
 						<li>
-							<a href="#cookies-policy">Cookies Policy</a>
+							<a href="#cookies-policy">Cookies Policy <br/></a>
 						</li>
 						<li>
-							<a href="#terms-of-services">Terms Of Service</a>
+							<a href="#terms-of-services">Terms Of Service <br/></a>
 						</li>
 						<li>
-							<a href="#support">Support</a>
+							<a href="#support">Support <br/></a>
 						</li>
 					</ul>
 				</div>
@@ -46,7 +46,7 @@ const Footer = () => {
 
 
 				<div className="column subscribe">
-					<h3>Newsletter</h3>
+					<h3>Newsletter <br/></h3>
 					<div>
 						<input type="email" placeholder="Your email id here" />
 						<button>Send</button>
