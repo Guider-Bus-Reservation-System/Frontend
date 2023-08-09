@@ -1,31 +1,29 @@
 .card-gallery{
-    height: 300px;
-    width: 295px;
-    padding: 5px 5px;
-	background-image: linear-gradient(to bottom left, #e6edf200, #e0eaef);
-    border-radius: 20px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-    background-color: #9a8f8f;
-    margin: 30px;
-    position: auto;
-    overflow: hidden;
-    transition: transform 0.3s ease; 
-	cursor: pointer;
+  height: 300px;
+  width: 150px;
+  background-image: linear-gradient(to bottom left, #e6edf200, #e0eaef);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #9a8f8f;
+  margin: 3px;
+  position: auto;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+  cursor: pointer;
+  border-style: none;
+  margin-bottom: 150px;
 }
 
+.card-gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-style: none;
+}
 
-  
-  .card-gallery img {
-	height: 100%;
-    width: 100%;
-	object-fit: cover;
-	border-radius: 20px;
-  }
-  
-  .card-gallery:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
-  background-color: #fff;
-  z-index: 1;
-  cursor: pointer;
+.card-gallery:hover {
+transform: scale(1.50);
+box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.25);
+background-color: #fff;
+z-index: 1;
+cursor: pointer;
 }

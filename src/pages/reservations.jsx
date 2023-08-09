@@ -49,16 +49,16 @@ const Reservations = () => {
 
 					<div className="reservations-header-image-container">
 						<img
-							src="homepage.png"
+							src="img6_.jpg"
 							alt="homepage"
 							className="reservations-header-image"
 						/>
 					</div>
 
-					<div className="home-header-container">
-						<div className="home-header-title">Reservations</div>
+					<div className="sub-header-container">
+						<div className="sub-header-title">Reservations</div>
 						<div className="home-header-subtitle">
-							Guider: Expressway Bus Transport Management &
+							Expressway Bus Transport Management &
 							Information System
 						</div>
 					</div>
